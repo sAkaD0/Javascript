@@ -1,8 +1,8 @@
-html{
+html {
     background-color: #2b2a33;
 }
 
-main{
+main {
     display: grid;
     grid-template-columns: 12% 1fr;
 }
@@ -34,16 +34,16 @@ main{
     flex-flow: column nowrap;
 }
 
-div{
-    display:grid;
+div {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    margin:0;
+    margin: 0;
 }
 
-div figure{
-    display:grid;
-    width:250px;
+div figure {
+    display: grid;
+    width: 250px;
     background-color: #fff;
     height: 200px;
     justify-content: center;
@@ -51,12 +51,23 @@ div figure{
     text-align: center;
 }
 
-div figure img{
-    padding-top:10px;
+div figure img {
+    padding-top: 10px;
     width: 240px;
     height: 150px;
 }
 
-#lightbox{
-    background-color: rgba(0,0,0,0.9);
+#lightbox {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#big {
+    width: 1000px;
+    margin: 10px;
 }
