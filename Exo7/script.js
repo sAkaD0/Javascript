@@ -12,7 +12,7 @@
             
         }
         else{
-            if(i>= 7){
+            if(i >= 7){
                 if (i%2 == 0){
                     image.src = "img/rouge.png";
                     image.classList.add("rouge");
